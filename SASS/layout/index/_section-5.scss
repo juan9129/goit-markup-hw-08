@@ -1,0 +1,22 @@
+.regular-clients{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.regular-clients-tittle{
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 36px;
+Line-height: 42.19px;
+letter-spacing: 3%;
+padding-top: 59px;
+padding-bottom: 44px;
+}
+
+.regular-clients-container{
+display: flex;
+align-items: center;
+justify-content: center;
+}

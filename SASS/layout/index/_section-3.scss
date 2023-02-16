@@ -1,0 +1,27 @@
+.section-3-container-list {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 0;
+margin: auto;
+}
+
+.ection-3-img-footer{
+position: relative;
+bottom: 87.5px;
+background: rgba(47, 48, 58, 0.8);
+width: 373px;
+height: 70px;
+justify-content: center;
+}
+
+.section-3-paragraph-img-footer{
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+text-align: center;
+padding-top: 27px;
+padding-bottom: 27px;
+}

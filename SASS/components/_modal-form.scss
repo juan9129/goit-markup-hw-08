@@ -1,0 +1,132 @@
+.modal-container {
+display: flex;
+flex-direction: column;
+width: 448px;
+margin-bottom: 10px;
+margin-left: 50px;
+&:hover {
+border-color: var(--brand-color);
+}
+}
+.modal-form-info {
+width: 448px;
+margin-top: 5px;
+height: 40px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+color: rgba(33, 33, 33, 1);
+padding-left: 40px;
+font-size: 14px;
+&:focus-visible {
+outline: var(--brand-color) solid 1px;
+}
+}
+.modal-form-info:hover + .form-icon-container {
+fill: var(--brand-color);
+}
+
+.modal-coments-label{
+display: flex;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+color: #757575;
+}
+.modal-coment {
+width: 448px;
+height: 120px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+margin: 0 auto;
+margin-top: 5px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+padding-top: 12px;
+padding-left: 20px;
+&:focus-visible {
+outline: var(--brand-color) solid 1px;
+}
+&:hover {
+border-color: var(--brand-color);
+}
+}
+.textarea {
+resize: none;
+}
+.modal-tittle {
+width: 455px;
+height: 23px;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin: 0px 20px 12px 45px;
+padding: 0px 5px 0px 5px;
+}
+.label-style{
+display: flex;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #757575;
+}
+
+.form-svg {
+position: absolute;
+left: 15px;
+transform: translateY(-210%);
+}
+.modal-comment-container {
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+width: 448px;
+margin-left: 50px;
+}
+.modal-check-container {
+width: 448px;
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+padding-left: 20px;
+margin-left: 40px;
+}
+.parrafo-modal {
+display: flex;
+text-align: start;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+display: flex;
+margin: auto;
+}
+.checkbox {
+width: 16px;
+height: 15px;
+margin-right: 8.38px;
+margin-top: 5px;
+color:#212121;
+background: #ffffff;
+border-radius: 4px;
+border: #212121 solid 1px;
+
+}
+.checkbox-label {
+display: flex;
+font-style: normal;
+font-weight: 400;
+}

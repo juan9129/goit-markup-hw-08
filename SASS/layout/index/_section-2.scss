@@ -1,0 +1,27 @@
+.section-2-titles {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1;
+color: #212121;
+}
+
+.section-2-paragraphs {
+font-family: var(--main-font);
+font-size: 14px;
+line-height: 1;
+color: #757575;
+}
+
+.paragraphs-section-2-container {
+display: flex;
+gap: 1rem;
+justify-content: space-between;
+padding: 0;
+}
+
+.paragraph-section-2-list {
+width: 270px;
+height: 122px;
+}
